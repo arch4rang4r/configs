@@ -1,0 +1,6 @@
+pip
+wheel
+i3ipc
+colour
+youtube_dl
+i3pystatus
