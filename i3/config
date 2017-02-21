@@ -151,6 +151,8 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+bracketleft exec "switch.sh left"
 bindsym $mod+bracketright exec "switch.sh right"
+bindsym $mod+Shift+z move scratchpad
+bindsym $mod+z scratchpad show
 
 #exec --no-startup-id ~/.fehbg
 exec --no-startup-id nm-applet
