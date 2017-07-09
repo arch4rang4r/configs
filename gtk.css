@@ -1,6 +1,12 @@
 /* For whatever reason, only Ambiant-Mate, Radiant-Mate, and Arc-Dark have a terminal background that's not pure white, and mate-terminal doesn't have an option to request the dark varient.  Workaround here. */
 vte-terminal {
     -TerminalScreen-background-darkness: 0.95;
-    background-color: @dark_bg_color;
+    background-color: #2F343F;
     color: @dark_fg_color;
+}
+/* Make the caja sidebar not dark */
+/* TODO: Figure out how to get that dropdown in the sidebar to behave */
+.caja-side-pane * {
+	background-color: white;
+	color: #8A858C;
 }
