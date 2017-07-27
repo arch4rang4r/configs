@@ -4,9 +4,3 @@ vte-terminal {
     background-color: #2F343F;
     color: @dark_fg_color;
 }
-/* Make the caja sidebar not dark */
-/* TODO: Figure out how to get that dropdown in the sidebar to behave */
-.caja-side-pane * {
-	background-color: white;
-	color: #8A858C;
-}
