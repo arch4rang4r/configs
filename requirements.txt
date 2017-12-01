@@ -3,4 +3,4 @@ wheel
 i3ipc
 colour
 youtube_dl
-i3pystatus
+git+https://github.com/enkore/i3pystatus.git
