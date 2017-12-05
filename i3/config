@@ -156,6 +156,8 @@ bindsym $mod+z scratchpad show
 
 #exec --no-startup-id ~/.fehbg
 exec --no-startup-id nm-applet
+exec --no-startup-id redshift-gtk
+exec --no-startup-id "compton -b"
 new_window 1pixel
 
 # Start i3bar to display a workspace bar (plus the system information i3status
